@@ -17,6 +17,7 @@
       "form",
       "hero",
       "image",
+      "image-grid",
       "quote",
       "search",
       "tabs",
@@ -55,6 +56,23 @@
   },
   {
     "id": "columns-cell",
+    "components": [
+      "text",
+      "image"
+    ]
+  },
+  {
+    "id": "Image Grid",
+    "components": [
+      "image-grid-row"
+    ]
+  },
+  {
+    "id": "image-grid-row",
+    "components": []
+  },
+  {
+    "id": "image-grid-cell",
     "components": [
       "text",
       "image"

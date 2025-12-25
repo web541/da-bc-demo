@@ -193,6 +193,22 @@
     ]
   },
   {
+    "id": "image-grid",
+    "fields": [
+      {
+        "component": "number",
+        "valueType": "number",
+        "name": "image-grid",
+        "label": "Number of Image Grids",
+        "value": 2,
+        "validation": {
+          "numberMin": 1,
+          "numberMax": 6
+        }
+      }
+    ]
+  },
+  {
     "id": "quote",
     "fields": [
       {

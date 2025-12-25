@@ -159,6 +159,38 @@
           }
         },
         {
+          "title": "Image Grid",
+          "id": "image-grid",
+          "plugins": {
+            "da": {
+              "name": "image-grid",
+              "rows": 1,
+              "columns": 2,
+              "behaviour": "image-grid"
+            }
+          }
+        },
+        {
+          "title": "Image Grid Row",
+          "id": "image-grid-row",
+          "plugins": {
+            "da": {
+              "name": "image-grid-row",
+              "behaviour": "image-grid-row"
+            }
+          }
+        },
+        {
+          "title": "Image Grid Cell",
+          "id": "image-grid-cell",
+          "plugins": {
+            "da": {
+              "unsafeHTML": "<div></div>",
+              "behaviour": "image-grid-cell"
+            }
+          }
+        },
+        {
           "title": "Quote",
           "id": "quote",
           "plugins": {
