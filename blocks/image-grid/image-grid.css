@@ -1,0 +1,33 @@
+.image-grid > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-grid img {
+  width: 100%;
+}
+
+.image-grid > div > div {
+  order: 1;
+}
+
+.image-grid > div > .image-grid-img-col {
+  order: 0;
+}
+
+.image-grid > div > .image-grid-img-col img {
+  display: block;
+}
+
+@media (width >= 900px) {
+  .image-grid > div {
+    align-items: center;
+    flex-direction: unset;
+    gap: 24px;
+  }
+
+  .image-grid > div > div {
+    flex: 1;
+    order: unset;
+  }
+}
